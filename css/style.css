@@ -1,0 +1,30 @@
+:root {
+  --bg: black;
+  --tc: white;
+}
+
+* {
+    margin: 0; padding: 0; 
+}
+
+header {
+    background-color: var(--bg);
+    color: var(--tc);
+    height: 250px;
+}
+
+header nav .spisok {
+    display: flex;
+    justify-content: center;
+}
+
+header nav .spisok li{
+    list-style-type: none;
+}
+header nav .spisok li a{
+    text-decoration: none;
+    color: var(--tc)
+}
+
+
+
