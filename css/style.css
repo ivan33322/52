@@ -7,24 +7,47 @@
     margin: 0; padding: 0; 
 }
 
+body {
+    width: 1920px;
+}
+
 header {
     background-color: var(--bg);
     color: var(--tc);
-    height: 250px;
+    height: 100px;
 }
 
 header nav .spisok {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 header nav .spisok li{
     list-style-type: none;
+    margin-top: 50px;
 }
 header nav .spisok li a{
     text-decoration: none;
-    color: var(--tc)
+    color: var(--tc);
 }
 
 
+hr {color :white}
+
+
+
+
+
+
+main {
+    width: 1920px;
+    height: 1080px;
+    background-color: rgb(20, 20, 20);
+}
+
+main video{
+    
+}
 
